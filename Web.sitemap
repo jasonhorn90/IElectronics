@@ -1,0 +1,72 @@
+﻿
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode title='' roles="*">
+		<siteMapNode url="" title="" description=""  roles ="Administrator, HR, Mgr, WH, Corp, Purch, Sales"> 
+			<siteMapNode url="~/Home.aspx" title="Home"  description="Home Page" roles="Administrator" />
+		</siteMapNode>
+		<siteMapNode url="" title="Purchasing" description="" roles="Administrator, Purch, Mgr, Corp">
+			<siteMapNode url="~/Purchasing/PurchaseOrders.aspx" title="Purchase Orders"  description="PO page" />
+		</siteMapNode>
+		<siteMapNode url="" title="Inventory" description="" roles="Administrator, Mgr, WH, Corp">
+			<siteMapNode url="~/Inventory/Inventory.aspx" title="Inventory Master List"  description="Inventory Page"/>
+		</siteMapNode>
+		<siteMapNode url="" title="Employees" description="" roles="Administrator, Mgr, HR, Corp">
+			<siteMapNode url="~/Employees/Employees.aspx" title="Employee Master List "  description="Employee Page"/>			
+		</siteMapNode>
+		<siteMapNode url="" title="Sales" description="" roles="Administrator, Mgr, Sales, Corp">
+			<siteMapNode url="~/Sales/SalesTransactions.aspx" title="Sales Transactions "  description="SO Page" />
+		</siteMapNode>
+		<siteMapNode url="" title="Customers" description="" roles="Administrator, Mgr, Sales, Corp">
+			<siteMapNode url="~/Customers/Customers.aspx" title="Customer Master List "  description="Customer Page" />			
+		</siteMapNode>
+		<siteMapNode url="" title="Vendors" description="" roles="Administrator, Mgr, Purch, Corp">
+			<siteMapNode url="~/Vendor/Vendor.aspx" title="Vendor Master List "  description="Vendor Page" />			
+		</siteMapNode>
+		<siteMapNode url="" title="Reporting" description="" roles="Administrator, Mgr, Purch, Corp">
+			<siteMapNode url="~/Reports/Reports.aspx" title="Reporting "  description="Reporting"/>			
+		</siteMapNode>
+
+
+	</siteMapNode>	
+		
+		
+</siteMap>
+		
+		<!--
+			<siteMapNode title="HR Services" description="HR Services" roles="HR, ITAdmin">
+				<siteMapNode url="~/Employees/Employees.aspx" title="Employees"  description="Employees">
+					<siteMapNode url="~/Employees/EnterEmployee.aspx" title="Create Employee"  description="Create Employee"/>
+				</siteMapNode>						
+				<siteMapNode url="~/Employees/Employee_Dependents.aspx" title="Dependents"  description="Dependents">
+					<siteMapNode url="~/Employees/EnterEmployee_Dependents.aspx" title="Create Dependent" description="Create Dependent" />
+				</siteMapNode>				
+				<siteMapNode url="~/Employees/Employee Hours.aspx" title="Employee Hours" description="Employee Hours">
+					<siteMapNode url="~/Employees/EnterEmployeeHrs.aspx" title="Enter Employee Hours" description="Enter Employee Hours" />
+				</siteMapNode>			
+			</siteMapNode>		
+			<siteMapNode title="Patient Services" description="Patient Services" roles="MedicalProvider, ITAdmin, FinCol, DataRecorder ">
+				<siteMapNode url="~/Patient/Patients.aspx" title="Patients"  description="Patients" >
+					<siteMapNode url="~/Patient/EnterPatient.aspx" title="Enter Patient" description="Enter Patient" />		
+				</siteMapNode>
+				<siteMapNode url="~/Appointment/Appointments.aspx" title="Appointments"  description="Appointments" >
+					<siteMapNode url="~/Appointment/CreateAppointment.aspx" title="Enter Appointment" description="Enter Appointment"/>
+				</siteMapNode>			
+				<siteMapNode url="~/Invoicing/Invoicing.aspx" title="Invoicing"  description="Invoicing">
+					<siteMapNode url="~/Invoicing/CreateInvoice.aspx" title="Create Invoice" description="Create Invoice" />
+				</siteMapNode>
+				<siteMapNode url="~/Patient/PatientVisit.aspx" title="Patient Visit" description="Patient Visit">
+					<siteMapNode url="~/Patient/EnterPatientVisit.aspx" title="Create Patient Visit" description="Create Patient Visit" />
+				</siteMapNode>
+			</siteMapNode>		
+			<siteMapNode title="Administration" description="Administration" roles="ITAdmin">		
+			<siteMapNode url="~/Branch/Branch.aspx" title="Branch"  description="Branch" >
+				<siteMapNode url="~/Branch/EnterBranch.aspx" title="Enter Branch" description="Enter Branch" />
+			</siteMapNode>
+			<siteMapNode url="~/Site/Sites.aspx" title="Sites"  description="Sites" >
+				<siteMapNode url="~/Site/AddSite.aspx" title="Add Sites"  description="Add Sites" />
+			</siteMapNode>		
+			</siteMapNode>			
+	</siteMapNode>
+	-->
+

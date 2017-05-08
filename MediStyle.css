@@ -1,0 +1,186 @@
+﻿body {
+}  
+.HomePnl
+{
+        padding-top:200px;  
+        background-color:#cceeff;  
+        width:900px;  
+            
+}
+
+.masterHeader {
+    text-shadow: 2px 2px;
+}
+
+.masterTable {
+    height: 100%;
+    width: 100%;
+    vertical-align:middle; 
+    font-family:Tahoma;        
+}
+.MainPnl {
+    text-align:center;
+    align-content:center;
+    width: 75%;
+   
+}
+.EmpPnl {
+     background-color:#cceeff;
+    margin-right: 0px;
+}
+  
+.HomeBtn {
+
+  opacity: .75;
+}
+
+.LoginPnl {
+    margin: 0 auto;
+}
+
+.box{  
+   background:rgba(14, 229, 235, 0.68) ;
+ 
+  box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.9);
+}
+
+.desc {
+ width: 300px;
+}
+
+.field{
+  width:100%;
+  margin:10px auto;
+  padding:10px;
+  background:#2c2c2c;
+  border:none;
+  box-shadow: 0px 1px 0px 0px #111;
+  border-radius:3px;
+  outline:none;
+  color:#FFBF00;
+  font-weight:700;
+  letter-spacing:0.125em;
+  text-align:center;
+  text-transform:uppercase;
+}
+.btn{
+  width:auto;
+  margin:10px auto;
+  padding:10px;
+  background: #b6c6c5 ; /*#808080 ;*/
+  border:double;
+  box-shadow: 0px 1px 0px 0px #111;
+  border-radius:3px;
+  outline:none;  
+  font-weight:700;  
+  letter-spacing:0.125em;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  background:#FFBF00;
+  color:#333;
+}
+ 
+.btn:active{
+  background:#FACC2E;
+  color:#333;
+}
+
+::-webkit-input-placeholder{ /* WebKit browsers */
+  color:#5A5A5A;
+}
+:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+  color:#5A5A5A;
+}
+::-moz-placeholder{ /* Mozilla Firefox 19+ */
+  color:#5A5A5A;
+}
+:-ms-input-placeholder{ /* Internet Explorer 10+ */
+  color:#5A5A5A;
+}
+ 
+.mydatagrid
+{
+	width: 1000px;
+    height: 250px;
+	border: solid 0px black;
+	min-width: 80%;   
+    
+}
+
+.header
+{
+	background-color: #646464;
+	font-family: Arial;
+	color: White;
+	border: none 0px transparent;
+	height: 25px;
+	text-align: center;
+	font-size: 16px;
+}
+
+ .rows
+{
+	
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+	height: 5px;
+	text-align: left;
+	border: none 0px transparent;
+}
+.rows:hover
+{
+	background-color: #ff8000;
+	font-family: Arial;
+	color: #fff;
+	text-align: left;
+}
+.selectedrow
+{
+	background-color: #ff8000;
+	font-family: Arial;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+}
+.mydatagrid a /** FOR THE PAGING ICONS  **/
+{
+	background-color: Transparent;
+	padding: 5px 5px 5px 5px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/
+{
+	background-color: #00bfff;
+	color: #fff;
+}
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+{
+	background-color: #c9c9c9;
+	color: #000;
+	padding: 5px 5px 5px 5px;
+}
+.pager
+{
+	background-color: #646464;
+	font-family: Arial;
+	color: White;
+	height: 30px;
+	text-align: left;
+}
+
+.mydatagrid td
+{
+	padding: 5px;
+}
+.mydatagrid th
+{
+	padding: 5px;
+}
+

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<!-- 
+  Visual Studio global web project settings.
+-->
+<VisualWebDeveloper>
+
+ <comReferences>
+    <reference Name="interop.primarylib" ID="{50D06DCF-CFFE-11D1-8271-00C04FD945C7}\1.0\0"/>
+    <reference Name="interop.orclssolib" ID="{D4A48A53-110B-11D2-B9C2-00C04FD945C7}\1.0\0"/>
+    <reference Name="interop.oradclib" ID="{92096210-97DF-11CF-9F27-02608C4BF3B5}\1.0\0"/>
+  </comReferences>
+
+  <iisExpressSettings windowsAuthentication="disabled" anonymousAuthentication="enabled" useClassicPipelineMode="false"/> 
+</VisualWebDeveloper>

@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    
+</head>
+    
+<body>
+    <form runat="server" >
+    
+        <asp:Table id="masterTable" runat="server" Font-Bold="true" Font-Size="Large" >
+            <asp:TableRow> 
+                <asp:TableCell>
+                     <i><asp:Image Width="400px" ID ="Logo" runat="server" ImageUrl="~/Images/IElectronics Logo.jpg" /></i>
+                </asp:TableCell>               
+                <asp:TableCell style="text-align:left; text-shadow: 2px 2px 4px #000000; color:aqua; font-size:x-large; font-family:Tahoma" >
+                    
+                    <h1>Employee Portal</h1>                    
+                </asp:TableCell>
+            </asp:TableRow>
+             <asp:TableRow>
+                <asp:TableCell ColumnSpan="2">
+                    <h2></h2>
+                    <div runat="server">
+                        <asp:LoginView ID="LoginView1" runat="server">
+                            <LoggedInTemplate>
+                                You are logged in as:
+                                <asp:LoginName ID="LoginName1" runat="server" />
+                            </LoggedInTemplate>
+                            <AnonymousTemplate>
+                                
+                            </AnonymousTemplate>
+                        </asp:LoginView>
+                        <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutPageUrl="~/Login.aspx"  /> 
+                    </div>
+                </asp:TableCell>
+            </asp:TableRow>
+          <asp:TableRow>
+               <asp:TableCell style="vertical-align:top; position:absolute">               
+                    <br />
+                    <asp:TreeView ID="TreeView2" runat="server" DataSourceID="SiteMapDataSource1" ShowExpandCollapse="false" HoverNodeStyle-ForeColor="SpringGreen" HoverNodeStyle-Font-Size="X-Large" >
+                    </asp:TreeView>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                    <br />
+                </asp:TableCell>
+                <asp:TableCell  style="vertical-align:top " >
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+                    </asp:ContentPlaceHolder>
+                </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow HorizontalAlign="Center" runat="server" >
+                <asp:TableCell style="align-content:center" ColumnSpan="2">
+                    <i>&copy IElectronics, 2017 . Powered by <asp:Image ID ="ModSYS" runat="server" ImageUrl="~/Images/John 2 Modular-Systems-logo.png" Height="25%" Width="9%" ImageAlign="Middle" /></i>                    
+                </asp:TableCell>
+                 <asp:TableCell>
+                    
+                </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableROw>
+                <asp:TableCell>
+                    
+                </asp:TableCell>
+            </asp:TableROw>
+        </asp:Table>
+    
+
+    </form>
+  
+</body>
+</html>
+
